@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "3f2f8e1a1c25da09",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa8dec6db075b8c6",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b604f4dc4b5b2464",
+    "type": "split",
+    "children": [
+      {
+        "id": "191463e276c2a32e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e408306cf4423e18",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "013fd0dd51ecd881",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b89e15268b2791a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3903073675662f83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5526a1f538d6f086",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fa8dec6db075b8c6",
+  "lastOpenFiles": [
+    "Xcode Shortcut.md",
+    "Swift Style.md",
+    "Playground.md",
+    "安裝軟體.md"
+  ]
+}
