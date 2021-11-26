@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8a8e33a48a86b3d9",
+        "id": "2ad6381be9a0a0f5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "iOS Resource.md",
+            "file": "Swift/Swift Basic.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS Resource.md",
+                "file": "Swift/Swift Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,12 +86,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a8e33a48a86b3d9",
+  "active": "2ad6381be9a0a0f5",
   "lastOpenFiles": [
-    "iOS Resource.md",
+    "Swift/Swift Basic.md",
+    "IDE/Xcode Shortcut.md",
+    "IDE/Playground.md",
     "安裝軟體.md",
-    "Swift Style.md",
-    "Playground.md",
-    "Xcode Shortcut.md"
+    "iOS Resource.md",
+    "Swift/Swift Style.md"
   ]
 }
