@@ -19,6 +19,9 @@
 	- 數字表示位元數，會影響最大與最小值
 	- compiler會忽略數字型態的underscore(下底線)，可以使用在較長的數字以做識別
 	- 相同型態才可以做計算，不同型態要**先轉型**才可操作
+	- 常用方法
+		- random
+		- [Mathematical functions in Swift](https://www.ictdemy.com/swift/basics/mathematical-functions-in-swift)
 - Boolean
 	- true
 	- false

@@ -47,6 +47,24 @@ let iValue = 160
 let fIvalue: Double = Double(iValue)
 print(fIvalue - dValue)
 
+// 隨機亂數
+let iRandom = Int.random(in: 1...10)
+let dRandom = Double.random(in: 0...1)
+
+// 數學方法
+let int1: Int = 10
+let int2: Int = 30
+let maxInt = max(int1, int2)
+let minInt = min(int1, int2)
+
+let dou1: Double = 15.3
+let dou2: Double = 9.875
+let maxDou = max(dou1, dou2)
+let minDou = min(dou1, dou2)
+let aInt = abs(-652)
+let hundred = pow(10, 2)
+let ten = sqrt(100)
+
 // String - 單行, 多行
 let str = "Swift is very cool"
 var multiLine = """
