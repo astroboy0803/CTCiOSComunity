@@ -2,7 +2,9 @@
 - [Apple Developer Documentation](https://developer.apple.com/documentation/technologies)
 - [Swift官方文件](https://www.swift.org/documentation/)
 - [Mastering Swift 4 - 4th edition](https://www.amazon.com/Mastering-Swift-depth-comprehensive-programming/dp/1788477804) → 工具書，目前有出到第5版
+- [KKBOX iOS/Mac OS X 基礎開發教材](https://zonble.gitbooks.io/kkbox-ios-dev/content/)
 - [raywenderlich](https://www.raywenderlich.com) → 電子書商(程式相關)，裡面也會有一些教學文章
+- [point-free](https://www.pointfree.co) -> 線上教學課程
 
 
 ### Conference

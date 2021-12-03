@@ -89,10 +89,14 @@
   "active": "2ad6381be9a0a0f5",
   "lastOpenFiles": [
     "Swift/Swift Basic.md",
-    "IDE/Xcode Shortcut.md",
-    "IDE/Playground.md",
-    "安裝軟體.md",
+    "UIKit/Form View Controller.md",
     "iOS Resource.md",
-    "Swift/Swift Style.md"
+    "UIKit/UIViewController.md",
+    "UIKit/LifeCycle.md",
+    "UIKit/AutoLayout.md",
+    "UIKit/Container View Controller.md",
+    "Swift/Swift Style.md",
+    "IDE/Xcode Shortcut.md",
+    "IDE/Playground.md"
   ]
 }

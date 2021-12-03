@@ -3,5 +3,6 @@
     <pages>
         <page name='HomePage'/>
         <page name='SwiftStyle'/>
+        <page name='SwiftBasic'/>
     </pages>
 </playground>
