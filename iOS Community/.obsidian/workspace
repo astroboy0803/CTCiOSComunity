@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/Swift Basic.md",
+            "file": "Swift/Constants and Variables.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Swift Basic.md",
+                "file": "Swift/Constants and Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "2ad6381be9a0a0f5",
   "lastOpenFiles": [
-    "Swift/Swift Basic.md",
+    "Swift/Constants and Variables.md",
+    "安裝軟體.md",
+    "IDE/Playground.md",
+    "IDE/Xcode Shortcut.md",
+    "Swift/Flow Control and Collection.md",
+    "Swift/Swift Style.md",
+    "Swift/Swift Basic Type.md",
     "UIKit/Form View Controller.md",
     "iOS Resource.md",
-    "UIKit/UIViewController.md",
-    "UIKit/LifeCycle.md",
-    "UIKit/AutoLayout.md",
-    "UIKit/Container View Controller.md",
-    "Swift/Swift Style.md",
-    "IDE/Xcode Shortcut.md",
-    "IDE/Playground.md"
+    "UIKit/UIViewController.md"
   ]
 }

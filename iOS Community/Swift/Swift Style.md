@@ -56,3 +56,13 @@ var j=10
 if i == 9 {
 }
 ```
+
+### Style Guides & Lint & Formatter
+- [Google Swift Style Guide](https://google.github.io/swift/)
+- [Github Swift Style Guide](https://github.com/github/swift-style-guide)
+- [SwiftLint](https://github.com/realm/SwiftLint)
+- [swift-format](https://github.com/apple/swift-format)
+- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
+	- [使用 SwiftFormat 取代 Xcode 排版功能](https://www.notion.so/SwiftFormat-Xcode-8ff6da6724e840649ee59ca501041d74)
+
+P.S. 可透過git hook或Xcode Run Script Phase來讓程式碼維持一致

@@ -22,37 +22,16 @@
 - Boolean
 	- true
 	- false
-- String：A Unicode string value that is a collection of characters
+- String：A **Unicode string** value that is a collection of characters
 	- 文字內容同其它程式語言，使用double quote(")包住
 	- 多行可以使用三個double quote(")包住，可避免使用過多的跳脫字元
 	- 字串相加方式：+、\(變數) 
-	- 常用方法與屬性：uppercased、lowercased、isEmpty、hasPrefix、hasSuffix
+	- 常用方法與屬性：uppercased、lowercased、isEmpty、hasPrefix、hasSuffix、split、 components
 	- substring方法棄用，改成
 		- 找出截取字串的start與end的Index
 		- 用 subscript 語法取得Substring Type
 		- 必要時再將Substring轉成String
 	- **Swift 5後，為提升字串的處理速度，其它有做一些底層處理與調整，上述的Substring Type就是一種，可參考[ 深入了解 Swift String 字串型別 讓你的程式跑得更快更好](https://www.appcoda.com.tw/swift-string/)**
-
-### Constants and Variables
-- Definition:
-	- Constants cannot be changed once a value is assigned to it
-	- Variables can be updated or changed
-- Declaring:
-	- Keyword:
-		- let:
-		- var: 
-	- Explicit Types
-	- Type Inference
-	- Type Safety
-- Naming Rules:
-	1. An identifier must **not contain any whitespace**.
-	2. It must **not contain any mathematical symbols or arrows**.
-	3. An identifier must **not contain private-use or invalid Unicode characters**.
-	4. It must **not contain line- or box-drawing characters**.
-	5. It must **not start with a number**, but it **can contain numbers**.
-	6. If you use a **Swift keyword as an identifier, surround it with back ticks**; using a Swift keyword as an identifier is **strongly discouraged**.
-	
-	```
-	var `self`: Int = 0
-	print(`self`)
-	```
+		- 以unicode設定內容，\u{unicode}
+		- String與Substring都conform StringProtocol 
+		- Substring會指向原本的String並記錄Range範圍，不須分享與佔用記憶體，也不用copy character，時間與空間都非常優勢，因為是指標參考，使用完要release掉，不然會有**memory leak**
