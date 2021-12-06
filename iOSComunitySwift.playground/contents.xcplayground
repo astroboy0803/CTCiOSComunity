@@ -6,5 +6,8 @@
         <page name='SwiftBasicType'/>
         <page name='ConstantAndVariable'/>
         <page name='Property'/>
+        <page name='OptionalVariables'/>
+        <page name='BasicOperators'/>
+        <page name='CollectionsAndTuple'/>
     </pages>
 </playground>
