@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/第一週/Collections and Tuple.md",
+            "file": "Swift/第一週/Flow Control.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "type safety",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/第一週/Collections and Tuple.md",
+                "file": "Swift/第一週/Flow Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "2ad6381be9a0a0f5",
   "lastOpenFiles": [
+    "Swift/第一週/Flow Control.md",
+    "Swift/第一週/Swift Style.md",
     "Swift/第一週/Collections and Tuple.md",
+    "Progress.md",
+    "iOS Resource.md",
+    "UIKit/AutoLayout.md",
+    "Swift/第一週/Swift Basic Type.md",
     "Swift/第一週/Basic Operators.md",
     "Swift/Access Controls.md",
-    "Swift/第一週/Swift Style.md",
-    "Swift/第一週/Flow Control.md",
-    "Progress.md",
-    "Swift/第一週/Optional Variables.md",
-    "Swift/第一週/Constants and Variables.md",
-    "Swift/第一週/Swift Basic Type.md",
-    "安裝軟體.md"
+    "Swift/第一週/Optional Variables.md"
   ]
 }

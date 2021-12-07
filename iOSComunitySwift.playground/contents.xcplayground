@@ -9,5 +9,6 @@
         <page name='OptionalVariables'/>
         <page name='BasicOperators'/>
         <page name='CollectionsAndTuple'/>
+        <page name='FlowControl'/>
     </pages>
 </playground>
