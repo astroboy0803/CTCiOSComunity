@@ -50,6 +50,9 @@ var bindString: String?
 if let bindString = bindString {
     print("is nil = \(bindString)")
 }
+if var bindString = bindString {
+    bindString += "abcc"
+}
 bindString = ""
 if let bindString = bindString {
     print(bindString.count)

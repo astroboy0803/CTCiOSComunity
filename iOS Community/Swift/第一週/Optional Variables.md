@@ -15,5 +15,5 @@ Swift非常強調且重視**safety feature**，所以變數從宣告時就必須
 - Optional chaining
 	- 使用變數前加問號，若變數為nil就直接離開，不往執行	
 - Optional binding
-	- if let：不為nil才會進入{}
-	- guard let：為nil才會進入{}
+	- if let(or var)：不為nil才會進入{}
+	- guard let(or var)：為nil才會進入{}
