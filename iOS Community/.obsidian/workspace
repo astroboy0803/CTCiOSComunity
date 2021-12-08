@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/第二週/Basic Operators.md",
+            "file": "安裝軟體.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/第二週/Basic Operators.md",
+                "file": "安裝軟體.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "c568b81e682cd9a4",
   "lastOpenFiles": [
+    "安裝軟體.md",
     "Swift/第二週/Basic Operators.md",
     "Progress.md",
-    "安裝軟體.md",
     "iOS Resource.md",
     "Swift/第一週/Optional Variables.md",
     "Swift/第二週/Flow Control.md",
