@@ -1,5 +1,5 @@
 ### Collections
-- Array
+- #### Array
 	- Create and Initialize
 		- Array
 		- []，偏好使用這種寫法
@@ -13,15 +13,38 @@
 	- Add and Remove
 	- Merge and SubArray
 	- Bulk changes
-	- array methods
+	- Methods
 		- foreach
-		- sort / sorted
 		- filter
 		- map/compactMap/flatMap
-		- join
-	
-- Dictionary
-- Set
+		- sort / sorted
+		- reduce and joined
 
+- #### Set
+	- each item must be unique => conform **Hashable**
+	- 資料型態不可為**Any**或**AnyObject**
+	- Create and Initialize
+	- Add and Remove
+	- Methods
+	- Iterating
+	- Operations-集合操作
+	
+- #### Dictionary
+	- a container that stores multiple key-value pairs
+		- key: unique identifier =>  conform **Hashable**
+		- value: 可指定任意型態，如果value的型態非單一種資料型態的話，也是可以用**Any**或**AnyObject**，但一樣不建議這樣使用。
+	- 不保證存放順序
+	- Create and Initialize
+		- Dictionary
+		- [:]，偏好使用這種寫法
+	- Access and Replace
+		- 取出來的資料為optinal型態
+	- Add and Remove
+	- Methods
+	- Iterating
 
 ### tuple
+- group multiple values into a single compound value
+- values in the tuple do not have to be of the same type
+- Create and Initialize
+- Manipulation

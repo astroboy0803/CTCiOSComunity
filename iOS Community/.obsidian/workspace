@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "b3e3fcd7ef5efb15",
+    "id": "7c42a6f0a7df13d3",
     "type": "split",
     "children": [
       {
-        "id": "c568b81e682cd9a4",
+        "id": "96f2fa8fc9d44219",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "安裝軟體.md",
+            "file": "Swift/第二週/Collections and Tuple.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安裝軟體.md",
+                "file": "Swift/第二週/Collections and Tuple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c568b81e682cd9a4",
+  "active": "96f2fa8fc9d44219",
   "lastOpenFiles": [
-    "安裝軟體.md",
+    "Swift/第二週/Collections and Tuple.md",
     "Swift/第二週/Basic Operators.md",
     "Progress.md",
-    "iOS Resource.md",
-    "Swift/第一週/Optional Variables.md",
-    "Swift/第二週/Flow Control.md",
-    "Swift/第一週/Swift Style.md",
-    "Swift/第一週/Constants and Variables.md",
-    "Swift/第二週/Collections and Tuple.md",
-    "Swift/第一週/Swift Basic Type.md"
+    "Swift/第二週/Enumeration、Structure and Class.md",
+    "Swift/Protocol and Extensions.md",
+    "IDE/Speed up Swift Build.md",
+    "IDE/Playground.md",
+    "IDE/Xcode Shortcut.md",
+    "安裝軟體.md",
+    "iOS Resource.md"
   ]
 }

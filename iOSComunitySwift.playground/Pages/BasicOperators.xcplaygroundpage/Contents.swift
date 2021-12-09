@@ -93,3 +93,8 @@ let cRange: ClosedRange = 1...5
 print(cRange.contains(7))
 print(cRange.contains(4))
 print(cRange.contains(-1))
+
+let oRange: Range = 1..<5
+print(oRange.contains(5))
+print(oRange.contains(4))
+print(oRange.contains(-1))

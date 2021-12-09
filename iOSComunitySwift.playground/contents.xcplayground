@@ -10,5 +10,6 @@
         <page name='BasicOperators'/>
         <page name='CollectionsAndTuple'/>
         <page name='FlowControl'/>
+        <page name='EnumStructClass'/>
     </pages>
 </playground>
