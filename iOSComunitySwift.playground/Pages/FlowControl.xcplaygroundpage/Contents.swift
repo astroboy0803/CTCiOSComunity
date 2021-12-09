@@ -53,3 +53,34 @@ let result: MyResult = .failure(message: "無情單殺")
 if case let .failure(message) = result {
     print(message)
 }
+
+// guard
+func isNotBlank(str: String?) -> Bool {
+    guard let str = str else {
+        return false
+    }
+    return !str.isEmpty
+}
+var str: String? = nil
+print(isNotBlank(str: str))
+str = ""
+print(isNotBlank(str: str))
+str = "Stanleny"
+print(isNotBlank(str: str))
+
+func transfer(from: String?, receive: String?, amount: Int?) {
+    guard
+        let from = from,
+        let receive = receive,
+        let amount = amount,
+        !from.isEmpty,
+        !receive.isEmpty,
+        amount > 0
+    else {
+        print("transfer fail")
+        return
+    }
+    print("trnasfer from \(from) to \(receive) amount = \(amount)")
+}
+transfer(from: nil, receive: "", amount: -100)
+transfer(from: "132456", receive: "444444", amount: 100)
