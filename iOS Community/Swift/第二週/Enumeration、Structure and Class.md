@@ -7,4 +7,5 @@ Enumerations (also known as enums) are a special data type that enables us to **
 
 Swift的enum比其它程式語言來的強大
 - 預設是沒有型別, 但可設定為任意型態
+- CaseIterable
 - associated value

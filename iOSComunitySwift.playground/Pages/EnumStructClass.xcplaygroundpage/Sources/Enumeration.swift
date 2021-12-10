@@ -12,7 +12,7 @@ public func runEnumeration() {
         case Neptune
     }
 
-    enum ShortPlanets {
+    enum ShortPlanets: CaseIterable {
         case Mercury, Venus, Earth, Mars
         case Jupiter, Saturn, Uranus, Neptune
     }
@@ -64,7 +64,12 @@ public func runEnumeration() {
     default:
         print("default")
     }
-
+    
+    // CaseIterable
+    print(ShortPlanets.allCases)
+    // compiler error: 沒有comform CaseIterable無法使用
+    //print(Planets.allCase)
+    
     // 定義型別
     enum Devices: String {
         case MusicPlayer = "iPod"

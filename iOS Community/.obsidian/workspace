@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/第二週/Flow Control.md",
+            "file": "Swift/第二週/Enumeration、Structure and Class.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/第二週/Flow Control.md",
+                "file": "Swift/第二週/Enumeration、Structure and Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +88,11 @@
   },
   "active": "96f2fa8fc9d44219",
   "lastOpenFiles": [
-    "Swift/第二週/Flow Control.md",
+    "Swift/第二週/Enumeration、Structure and Class.md",
     "Swift/第二週/Collections and Tuple.md",
+    "Swift/第二週/Flow Control.md",
     "Swift/第二週/Basic Operators.md",
     "Progress.md",
-    "Swift/第二週/Enumeration、Structure and Class.md",
     "Swift/Protocol and Extensions.md",
     "IDE/Speed up Swift Build.md",
     "IDE/Playground.md",
