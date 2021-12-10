@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/第二週/Enumeration、Structure and Class.md",
-            "mode": "source"
+            "file": "Progress.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/第二週/Enumeration、Structure and Class.md",
+                "file": "Progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "96f2fa8fc9d44219",
   "lastOpenFiles": [
-    "Swift/第二週/Enumeration、Structure and Class.md",
-    "Swift/第二週/Collections and Tuple.md",
-    "Swift/第二週/Flow Control.md",
-    "Swift/第二週/Basic Operators.md",
     "Progress.md",
-    "Swift/Protocol and Extensions.md",
-    "IDE/Speed up Swift Build.md",
-    "IDE/Playground.md",
-    "IDE/Xcode Shortcut.md",
-    "安裝軟體.md"
+    "IDE/Attachements/Create iOS Project/Pasted image 20211210143956.png",
+    "Swift/第一週/Optional Variables.md",
+    "Swift/第一週/Constants and Variables.md",
+    "Swift/第一週/Swift Style.md",
+    "IDE/Create iOS Project.md",
+    "Pasted image 20211210143235.png",
+    "IDE/Attachements/Create iOS Project/Pasted image 20211210142917.png",
+    "IDE/Attachements/Create iOS Project/Pasted image 20211210142658.png",
+    "IDE/Attachements/Create iOS Project/Pasted image 20211210143055.png"
   ]
 }
