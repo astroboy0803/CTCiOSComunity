@@ -12,8 +12,9 @@
 - 練習：實作幾個[sort演算法](http://notepad.yehyeh.net/Content/Algorithm/Sort/Sort.php)
 
 ### 第二週(12/14)
-- First App
 - [[Basic Operators]]
 - [[Collections and Tuple]]
 - [[Flow Control]]
+- First App
+- [[AutoLayout]]
 - [[Enumeration、Structure and Class]]

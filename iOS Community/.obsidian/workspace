@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Progress.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -89,14 +89,14 @@
   "active": "96f2fa8fc9d44219",
   "lastOpenFiles": [
     "Progress.md",
+    "UIKit/第二週/AutoLayout.md",
+    "UIKit/第二週/Attachements/AutoLayout/Pasted image 20211210172700.png",
+    "Swift/第二週/Basic Operators.md",
+    "Swift/第二週/Collections and Tuple.md",
+    "Swift/第二週/Enumeration、Structure and Class.md",
     "IDE/Attachements/Create iOS Project/Pasted image 20211210143956.png",
     "Swift/第一週/Optional Variables.md",
     "Swift/第一週/Constants and Variables.md",
-    "Swift/第一週/Swift Style.md",
-    "IDE/Create iOS Project.md",
-    "Pasted image 20211210143235.png",
-    "IDE/Attachements/Create iOS Project/Pasted image 20211210142917.png",
-    "IDE/Attachements/Create iOS Project/Pasted image 20211210142658.png",
-    "IDE/Attachements/Create iOS Project/Pasted image 20211210143055.png"
+    "Swift/第一週/Swift Style.md"
   ]
 }
