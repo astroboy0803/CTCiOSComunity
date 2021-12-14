@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "UIKit/第二週/Sort App.md",
+            "file": "Progress.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UIKit/第二週/Sort App.md",
+                "file": "Progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "53c5208984838302",
   "lastOpenFiles": [
+    "Progress.md",
+    "UIKit/第二週/AutoLayout.md",
     "UIKit/第二週/Sort App.md",
     "UIKit/第二週/Attachements/Sort App/截圖 2021-12-14 下午3.20.21.png",
     "UIKit/第二週/Attachements/Sort App/simulator_screenshot_30528775-4139-479A-82B5-8B5599DD374F.png",
@@ -95,8 +97,6 @@
     "IDE/Create iOS Project.md",
     "UIKit/第二週/Attachements/Sort App/截圖 2021-12-14 下午2.46.52.png",
     "UIKit/Container View Controller.md",
-    "Attachments/XcodeShortcut/XcodeShortCuts1.jpg",
-    "Attachments/XcodeShortcut/XcodeShortCuts2.jpg",
-    "Progress.md"
+    "Attachments/XcodeShortcut/XcodeShortCuts1.jpg"
   ]
 }
