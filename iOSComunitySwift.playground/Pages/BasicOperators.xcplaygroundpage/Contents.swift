@@ -42,6 +42,9 @@ value *= 2
 print(value)
 value /= 2
 print(value)
+// compiler error: 沒有like c的++,--等寫法
+//value++
+//--value
 
 // ternary conditional
 var t1 = 2

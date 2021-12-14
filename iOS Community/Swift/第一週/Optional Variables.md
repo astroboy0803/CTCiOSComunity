@@ -17,3 +17,11 @@ Swift非常強調且重視**safety feature**，所以變數從宣告時就必須
 - Optional binding
 	- if let(or var)：不為nil才會進入{}
 	- guard let(or var)：為nil才會進入{}
+
+### Optional is Enum
+```
+enum Optional<T> { 
+  case None 
+  case Some(T) 
+} 
+```

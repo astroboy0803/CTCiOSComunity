@@ -15,6 +15,10 @@
 - [[Basic Operators]]
 - [[Collections and Tuple]]
 - [[Flow Control]]
-- First App
+- [[Create iOS Project]]
+- [[Sort App]]
 - [[AutoLayout]]
+
+### 第三週(12/21)
+- [[UIViewController]]
 - [[Enumeration、Structure and Class]]
