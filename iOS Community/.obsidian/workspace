@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Progress.md",
+            "file": "UIKit/調色盤.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Progress.md",
+                "file": "UIKit/調色盤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "53c5208984838302",
   "lastOpenFiles": [
+    "UIKit/調色盤.md",
     "Progress.md",
     "UIKit/第二週/AutoLayout.md",
     "UIKit/第二週/Sort App.md",
@@ -96,7 +97,6 @@
     "UIKit/第二週/Attachements/Sort App/Pasted image 20211214145228.png",
     "IDE/Create iOS Project.md",
     "UIKit/第二週/Attachements/Sort App/截圖 2021-12-14 下午2.46.52.png",
-    "UIKit/Container View Controller.md",
-    "Attachments/XcodeShortcut/XcodeShortCuts1.jpg"
+    "UIKit/Container View Controller.md"
   ]
 }

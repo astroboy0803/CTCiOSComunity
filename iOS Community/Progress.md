@@ -18,6 +18,7 @@
 - [[Create iOS Project]]
 - [[Sort App]]
 - [[AutoLayout]]
+- 練習：實作調色盤
 
 ### 第三週(12/21)
 - [[UIViewController]]
