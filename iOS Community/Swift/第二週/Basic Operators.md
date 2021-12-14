@@ -28,7 +28,7 @@
 7. logical
 - NOT：**!** 
 - AND：**&&** 
-- AND：**||** 
+- OR：**||** 
 
 8. range
 - closed：defines a range that runs from **a** to **b**

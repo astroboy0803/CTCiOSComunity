@@ -14,12 +14,12 @@
 ### 第二週(12/14)
 - [[Basic Operators]]
 - [[Collections and Tuple]]
-- [[Flow Control]]
 - [[Create iOS Project]]
 - [[Sort App]]
-- [[AutoLayout]]
 - 練習：實作調色盤
 
 ### 第三週(12/21)
+- [[AutoLayout]]
+- [[Flow Control]]
 - [[UIViewController]]
 - [[Enumeration、Structure and Class]]
