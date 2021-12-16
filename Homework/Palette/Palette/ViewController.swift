@@ -8,47 +8,52 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // tuple
+    typealias ColorProvider = (red: UInt, green: UInt, blue: UInt)
 
     @IBOutlet private var showView: UIView!
-    @IBOutlet private var showLabel: UILabel!
     
     @IBOutlet private var rSlider: UISlider!
     @IBOutlet private var gSlider: UISlider!
     @IBOutlet private var bSlider: UISlider!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let initColor: UIColor = .randomColor()
-        self.showView.backgroundColor = initColor
-        if let components = initColor.cgColor.components {
-            rSlider.value = Float(components[0])
-            gSlider.value = Float(components[1])
-            bSlider.value = Float(components[2])
-        } else {
-            rSlider.value = .zero
-            gSlider.value = .zero
-            bSlider.value = .zero
+    // store property
+    private var colorProvider: ColorProvider! {
+        
+        // property observe
+        didSet {
+            self.showView.backgroundColor = color
+            let cgComponents = color.cgColor.components
+            rSlider.value = Float(cgComponents?[0] ?? .zero)
+            gSlider.value = Float(cgComponents?[1] ?? .zero)
+            bSlider.value = Float(cgComponents?[2] ?? .zero)
         }
-        self.showLabel.text = """
-        R: \(rSlider.value)
-        G: \(gSlider.value)
-        B: \(bSlider.value)
-        """
+    }
+    
+    // compute property
+    private var color: UIColor {
+        .init(red: CGFloat(colorProvider.red) / 255, green: CGFloat(colorProvider.green) / 255, blue: CGFloat(colorProvider.blue) / 255, alpha: 1)
+    }
+    
+    override func viewDidLoad() {        
+        super.viewDidLoad()
+        self.showView.layer.cornerRadius = 150
+        colorProvider = randomColor()
     }
     
     @IBAction private func update(sender: UISlider) {
-        
+        let cgValue = UInt(sender.value * 255)
+        if sender === rSlider {
+            colorProvider.red = cgValue
+        } else if sender === gSlider {
+            colorProvider.green = cgValue
+        } else if sender === bSlider {
+            colorProvider.blue = cgValue
+        }
     }
     
-    
-}
-
-extension UIColor {
-    static func randomColor() -> UIColor {
-        let red: CGFloat = .random(in: 0...1)
-        let green: CGFloat = .random(in: 0...1)
-        let blue: CGFloat = .random(in: 0...1)
-        print("random = \(red), \(green), \(blue)")
-        return .init(red: red, green: green, blue: blue, alpha: 1)
+    private func randomColor() -> ColorProvider {
+        (red: .random(in: 0...255), green: .random(in: 0...255), blue: .random(in: 0...255))
     }
 }
