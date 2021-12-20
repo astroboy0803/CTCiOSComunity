@@ -6,11 +6,20 @@ iOS一開始畫面是透過元件Frame來做排版，也就是設定元件的大
 - xib： 1對1
 - storyboard：1對多
 - [Auto Layout 入門教學](https://www.appcoda.com.tw/introduction-auto-layout/)
-
-![[Pasted image 20211210172700.png]]
-
-![[Pasted image 20211210172717.png]]
-
+- 練習： 以上週實作的Sort App做練習
+	- Label
+		- 高50
+		- 寬均分裝置螢幕寬
+		- 距離上方20
+		- 彼此水平對齊
+	- Button
+		- 寬120
+		- 高80 
+		- 兩個間距為20
+		- 垂直軸對齊
+			- 「亂數」按鈕的右側
+			- 「排序」按鈕的左側
+		- 水平對齊機器		
 
 #### Programmatically
 - [純程式碼 Auto Layout 與概要教學](https://denkeni.medium.com/純程式碼-auto-layout-與概要教學-一-6077dd73dd3f)
