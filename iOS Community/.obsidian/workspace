@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "53c5208984838302",
+        "id": "c7a4accdf024ca66",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Progress.md",
+            "file": "Swift/第三週/Property.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Progress.md",
+                "file": "Swift/第三週/Property.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "53c5208984838302",
+  "active": "c7a4accdf024ca66",
   "lastOpenFiles": [
+    "Swift/第三週/Property.md",
     "Progress.md",
-    "UIKit/第二週/Sort App.md",
-    "IDE/Create iOS Project.md",
-    "Swift/第二週/Flow Control.md",
+    "UIKit/第三週/AutoLayout.md",
+    "Swift/第三週/Flow Control.md",
     "Swift/第二週/Collections and Tuple.md",
-    "Swift/第二週/Basic Operators.md",
-    "UIKit/調色盤.md",
-    "UIKit/第二週/AutoLayout.md",
-    "UIKit/第二週/Attachements/Sort App/截圖 2021-12-14 下午3.20.21.png",
-    "UIKit/第二週/Attachements/Sort App/simulator_screenshot_30528775-4139-479A-82B5-8B5599DD374F.png"
+    "UIKit/第三週/UIViewController's Life Cycle.md",
+    "UIKit/第三週/調色盤.md",
+    "Homework/Palette/README.md",
+    "README.md",
+    "UIKit/第二週/Sort App.md"
   ]
 }

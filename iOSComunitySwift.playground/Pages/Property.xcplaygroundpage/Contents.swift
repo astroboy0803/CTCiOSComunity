@@ -3,12 +3,128 @@
 import Foundation
 import Darwin
 
-// Store property
+class ApiLoaderHelper { }
 
-// Compute property
+class Employee {
+    // store property    
+    var firstName: String
+    var lastName: String
+    var salaryYear: Double
+    
+    // read-only: 
+    // 1. private store property + public compute property 
+    //    private var _eID: String = UUID().uuidString
+    //    var eID: String {
+    //        _eID
+    //    }   
+    // 2. private(set)
+    private(set) var eID: String    
+    
+    lazy var helper: ApiLoaderHelper = {
+        print("create helper...")
+        return .init()
+    }()
+    
+    // 完整寫法
+    var salaryHour: Double {
+        get {
+            print(">>> in salaryHour")
+            return salaryDay / 8
+        }        
+        set (newSalaryHour) {
+            salaryYear = newSalaryHour * 8 * 7 * 52
+        }        
+    }
+    
+    // ignore set parameter
+    var salaryDay: Double {
+        get {
+            return salaryWeek / 7
+        }
+        //  newValue is default parameter's name 
+        set {
+            salaryYear = newValue * 7 * 52
+        }
+    }
+    
+    // 只有get的話read-only, 可省略get keyword
+    var salaryWeek: Double {
+        return salaryYear / 52
+    }  
+    
+    //    // compiler error: get是必要
+    //    var fullName: String {
+    //        set {
+    //            lastName = newValue
+    //        }
+    //    }
+    
+    // property observer
+    lazy var fullName: String = {
+        return "..."
+    }() 
+    {
+        willSet {
+            print(newValue)
+        }
+        didSet {
+            print(oldValue)
+        }
+    }
+    
+    var salaryMonth: Double {
+        get {
+            return salaryYear / 30
+        }
+        set {
+            print("set begin...")
+            salaryYear = newValue * 12
+            print("set end...")
+        }
+    }
+    
+    init(firstName: String, lastName: String, salaryYear: Double) {
+        self.eID = UUID().uuidString        
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salaryYear = salaryYear
+    }   
+}
+
+// property observer
+class NewEmployee: Employee {
+    // 只能對繼承的compute property做property observer 
+    override var salaryMonth: Double {
+        willSet {
+            print("salaryMonth will set....\(newValue)")
+        }
+        didSet {
+            print("salaryMonth did set....\(oldValue)")
+        }
+    }
+}
+
+let emp1: Employee = .init(firstName: "a", lastName: "ccc", salaryYear: 100)
+// 驗證eID只能讀不能寫
+print(emp1.eID)
+//emp1.eID = "abc"
+// 驗證compute property每次都會去計算
+print(emp1.salaryHour)
+print(emp1.salaryHour)
+
+// create helper 
+print(emp1.helper)
+
+// property observer
+print(emp1.fullName)
+print("start observer")
+emp1.fullName = "abc"
+print(emp1.fullName)
+
+let nEmp1: NewEmployee = .init(firstName: "n", lastName: "ddd", salaryYear: 100)
+nEmp1.salaryMonth = 10
 
 // Property Wrapper
-
 //未使用property wrapper
 struct TwelveOrLessRanctangle {
     private var _height: Int = .zero

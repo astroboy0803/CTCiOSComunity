@@ -19,7 +19,7 @@
 - 練習：實作調色盤
 
 ### 第三週(12/21)
-- [[AutoLayout]]
 - [[Flow Control]]
-- [[UIViewController]]
-- [[Enumeration、Structure and Class]]
+- [[Property]]
+- [[UIViewController's Life Cycle]]
+- [[AutoLayout]]
