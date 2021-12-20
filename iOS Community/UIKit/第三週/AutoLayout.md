@@ -12,6 +12,8 @@ iOS一開始畫面是透過元件Frame來做排版，也就是設定元件的大
 		- 寬均分裝置螢幕寬
 		- 距離上方20
 		- 彼此水平對齊
+	![[labels.gif]]
+	
 	- Button
 		- 寬120
 		- 高80 
@@ -19,7 +21,10 @@ iOS一開始畫面是透過元件Frame來做排版，也就是設定元件的大
 		- 垂直軸對齊
 			- 「亂數」按鈕的右側
 			- 「排序」按鈕的左側
-		- 水平對齊機器		
-
+		- 水平對齊機器
+		![[buttons.gif]]
+	- 完成圖
+	![[result.png]]
+	
 #### Programmatically
 - [純程式碼 Auto Layout 與概要教學](https://denkeni.medium.com/純程式碼-auto-layout-與概要教學-一-6077dd73dd3f)
