@@ -21,5 +21,5 @@
 ### 第三週(12/21)
 - [[Flow Control]]
 - [[Property]]
-- [[UIViewController's Life Cycle]]
+- [[About Life Cycle]]
 - [[AutoLayout]]
