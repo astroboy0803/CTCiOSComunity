@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "UIKit/第三週/About Life Cycle.md",
-            "mode": "preview"
+            "file": "Swift/Methods.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UIKit/第三週/About Life Cycle.md",
+                "file": "Swift/Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "6f93d83961a17843",
   "lastOpenFiles": [
-    "UIKit/第三週/About Life Cycle.md",
-    "UIKit/第三週/AutoLayout.md",
-    "UIKit/第三週/Attachments/AutoLayout/result.png",
-    "UIKit/第三週/Attachments/AutoLayout/buttons.gif",
-    "Swift/第三週/Property.md",
-    "Progress.md",
+    "Swift/Methods.md",
     "Swift/第三週/Flow Control.md",
-    "Swift/第二週/Collections and Tuple.md",
-    "UIKit/第三週/調色盤.md",
-    "Homework/Palette/README.md"
+    "Swift/第三週/Property.md",
+    "IDE/SandBox.md",
+    "IDE/Attachements/SandBox/Pasted image 20211222095917.png",
+    "UIKit/第三週/Attachments/AboutLifeCycle/appstate.png",
+    "UIKit/第三週/Attachments/AboutLifeCycle/scene.png",
+    "UIKit/第三週/Attachments/AutoLayout/result.png",
+    "iOS Resource.md",
+    "Progress.md"
   ]
 }
