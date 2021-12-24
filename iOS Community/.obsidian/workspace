@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/Error Handling.md",
+            "file": "Swift/Enumeration、Structure and Class.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Error Handling.md",
+                "file": "Swift/Enumeration、Structure and Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,14 @@
   },
   "active": "6f93d83961a17843",
   "lastOpenFiles": [
+    "Swift/Enumeration、Structure and Class.md",
     "Swift/Error Handling.md",
+    "Swift/第三週/Flow Control.md",
     "UIKit/About iOS App Operation.md",
     "UIKit/Container View Controller.md",
     "UIKit/Form View Controller.md",
     "Swift/第四週/Methods.md",
-    "Swift/Enumeration、Structure and Class.md",
     "Swift/第三週/Property.md",
-    "Swift/第三週/Flow Control.md",
     "IDE/SandBox.md",
     "IDE/Attachements/SandBox/Pasted image 20211222095917.png"
   ]

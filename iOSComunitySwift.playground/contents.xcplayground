@@ -12,5 +12,6 @@
         <page name='FlowControl'/>
         <page name='EnumStructClass'/>
         <page name='Methods'/>
+        <page name='ErrorHandling'/>
     </pages>
 </playground>
