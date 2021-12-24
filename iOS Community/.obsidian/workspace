@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Swift/Methods.md",
-            "mode": "source"
+            "file": "Swift/Error Handling.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/Methods.md",
+                "file": "Swift/Error Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "6f93d83961a17843",
   "lastOpenFiles": [
-    "Swift/Methods.md",
-    "Swift/第三週/Flow Control.md",
+    "Swift/Error Handling.md",
+    "UIKit/About iOS App Operation.md",
+    "UIKit/Container View Controller.md",
+    "UIKit/Form View Controller.md",
+    "Swift/第四週/Methods.md",
+    "Swift/Enumeration、Structure and Class.md",
     "Swift/第三週/Property.md",
+    "Swift/第三週/Flow Control.md",
     "IDE/SandBox.md",
-    "IDE/Attachements/SandBox/Pasted image 20211222095917.png",
-    "UIKit/第三週/Attachments/AboutLifeCycle/appstate.png",
-    "UIKit/第三週/Attachments/AboutLifeCycle/scene.png",
-    "UIKit/第三週/Attachments/AutoLayout/result.png",
-    "iOS Resource.md",
-    "Progress.md"
+    "IDE/Attachements/SandBox/Pasted image 20211222095917.png"
   ]
 }
