@@ -1,6 +1,3 @@
-
-- 三個都可以在內部建立彼此，namespace
-
 ### Enumeration
 Enumerations (also known as enums) are a special data type that enables us to **group related types together** and **use them in a type-safe manner**.
 
@@ -19,13 +16,7 @@ Swift的enum比其它程式語言來的強大
 	- init(rawValue:)
 - associated value
 	- 不可以設定型別
-- Optional就是enum
-```
-enum Optional<T> { 
-  case None 
-  case Some(T) 
-} 
-```
+- [[Optional Variables]]是enum
 
 > **Structures** and **classes** are general-purpose, flexible constructs that become the building blocks of your program’s code. You define properties and methods to add functionality to your structures and classes using the same syntax you use to define constants, variables, and functions.
 
@@ -57,3 +48,7 @@ enum Optional<T> {
 > **Designated initializers** are the **primary initializers** for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain.
 > **Convenience initializers** are **secondary, supporting initializers** for a class. You can define a **convenience initializer to call a designated initializer** from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
 > Write the **required** modifier before the definition of a class initializer to indicate that **every subclass of the class must implement** that initialize
+
+
+P.S. 
+- 三種結構都可以在內部建立彼此，namespace的概念

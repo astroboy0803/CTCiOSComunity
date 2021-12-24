@@ -576,3 +576,28 @@ iOpt = 10.32
 if case let .some(value) = iOpt {
     print(value)
 }
+
+
+// namespace
+enum StaticType {
+    class C1 {}
+    class C2 {}
+    struct S1 {}
+    struct S2 {}
+}
+StaticType.C1()
+StaticType.S1()
+
+class Container {
+    struct S1 {}
+    struct S2 {}
+    enum CType {}
+}
+Container.S1()
+
+struct Structure {
+    class C1 {}
+    class C2 {}
+    enum CType {}
+}
+Structure.C1()
