@@ -17,7 +17,12 @@
 	- [[Sort App]]
 	- 練習：實作調色盤
 	- [[About Life Cycle]]
-	- [[AutoLayout]]
+	- [[AutoLayout]]	
+- Topic
+	- [[Demystifying iOS Layout 心得]]
+	- [[App Entry Point]]
+	- [[iOS 多工運作流程與應用]]
+	- [[Xcode環境變數]]
 	- [[SandBox]]
 - Other
 	- [[安裝軟體]]
