@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 import UIKit
 
@@ -87,7 +85,7 @@ func getTeam3(id _: Int) -> (name: String, win: Int, percent: Double?) {
     return ("Red Sox", 80, nil)
 }
 
-// external parameter - 外部呼叫時看的名稱 > 增加可讀性
+// Internal and external parameter
 func winPercentage(baseballTeam _: String, withWins wins: Int, andLoses loses: Int) -> Double {
     return Double(wins) / Double(loses + wins)
 }
@@ -103,13 +101,13 @@ func funcName2(_ inName: Int) {
 }
 funcName2(10)
 
-// variadic parameter - 可變長度參數
-func sayMultiGreeting(greeting: String, names: String...) {
+// variadic parameter
+func sayMultiGreeting(greeting: String..., names: String...) {
     for name in names {
-        print("\(greeting) \(name)")
+        print("\(greeting) name: \(name)")
     }
 }
-sayMultiGreeting(greeting: "Hi", names: "Bill", "Alasa")
+sayMultiGreeting(greeting: "Hi", "ad", "c", names: "Bill", "Alasa")
 
 // inout parameter - call by reference(參數結果會回傳)
 func inoutReverse(first: inout String, second: inout String) {
@@ -177,7 +175,7 @@ func testClosure(handler: (String) -> Void) {
 }
 testClosure(handler: clos2)
 
-// 有回傳值
+// 有回傳值, 一行的話可以省略return
 let clos3 = { (name: String) -> String in
     "Hello \(name)"
 }
@@ -234,12 +232,6 @@ let clos6b = { () -> Void in
 clos6()
 clos6b()
 
-// ignore return
-let clos7 = { (first: Int, second: Int) -> Int in
-    first + second
-}
-
-// closure with function - shorthand
 func codeSwift(type: Int, cb: (Int, String) -> String) {
     print(cb(type, "codeSwift"))
 }
@@ -284,12 +276,18 @@ codeSwift2 { () -> String in
     return "shorthand syntax Type 2-2 in codeSwift2 functions"
 }
 
-// Inferring Type From Context - 因為這個方法已經定義好closure的型態，故可以推論出參數與回傳的型態，所以可以將型態與參數括號省略
+// Inferring Type From Context
 codeSwift(type: 3) { type, text in
     return "shorthand syntax Type \(type) in \(text) functions"
 }
 
-// done
+// escaping closures
+var handlers: [() -> Void] = []
+func ecsapingFunction(handler: @escaping () -> Void) {
+    handlers.append(handler)
+}
+
+// advance
 // Operator Methods 應用 - operator都是由Function定義
 func codeSwift3(type: Int, cb: (String, String) -> String) {
     let text = cb("Operator ", "Method")

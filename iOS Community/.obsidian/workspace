@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "07683ccb6e3f3636",
+        "id": "a22fd6ef660c6860",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "07683ccb6e3f3636",
+  "active": "a22fd6ef660c6860",
   "lastOpenFiles": [
     "Swift/第四週/Methods.md",
+    "Swift/Memory Management.md",
+    "Swift/Advance/Capture List.md",
     "Outline.md",
     "Topic/SandBox.md",
     "Topic/Xcode環境變數.md",
     "UIKit/第四週/Transition.md",
     "Topic/Demystifying iOS Layout 心得.md",
     "Topic/App Entry Point.md",
-    "Pasted image 20211228101908.png.md",
-    "Topic/Attachments/Pasted image 20211228101908.png",
-    "Topic/Attachments/AppEntryPoint/swiftApplicationMain.png"
+    "Pasted image 20211228101908.png.md"
   ]
 }
