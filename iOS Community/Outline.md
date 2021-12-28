@@ -1,15 +1,18 @@
 - Swift
-	- [[Swift Style]]
-	- [[Swift Basic Type]]
-	- [[Constants and Variables]]
-	- [[Optional Variables]]
-	- [[Basic Operators]]
-	- [[Collections and Tuple]]
-	- [[Flow Control]]
-	- [[Property]]
-	- [[Methods]]
-	- [[Enumeration、Structure and Class]]
-	- [[Error Handling]]	
+	- Basic
+		- [[Swift Style]]
+		- [[Swift Basic Type]]
+		- [[Constants and Variables]]
+		- [[Optional Variables]]
+		- [[Basic Operators]]
+		- [[Collections and Tuple]]
+		- [[Flow Control]]
+		- [[Property]]
+		- [[Methods]]
+		- [[Enumeration、Structure and Class]]
+		- [[Error Handling]]
+	- Advance
+		- [[Array]]
 - UIKit
 	- [[Sort App]]
 	- 練習：實作調色盤
