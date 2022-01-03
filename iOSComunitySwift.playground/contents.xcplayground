@@ -13,5 +13,7 @@
         <page name='EnumStructClass'/>
         <page name='Methods'/>
         <page name='ErrorHandling'/>
+        <page name='AboutJSON'/>
+        <page name='PlaygroundRunViewController'/>
     </pages>
 </playground>

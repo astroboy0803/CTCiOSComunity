@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "legacyEditor": true,
+  "legacyEditor": false,
   "livePreview": true,
   "attachmentFolderPath": "Topic/Attachments"
 }
