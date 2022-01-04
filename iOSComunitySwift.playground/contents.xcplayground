@@ -17,5 +17,6 @@
         <page name='PlaygroundRunViewController'/>
         <page name='AccessControl'/>
         <page name='Extension'/>
+        <page name='Protocol'/>
     </pages>
 </playground>

@@ -96,7 +96,7 @@
 	- create instance後直接呼叫instance member
 - 怎麼把資料帶回sup view controller
 	- delegate
-		- protocol and extension
+		- [[Protocol]] and [[Extension]]
 		- memory problem
 			- weak or unowned
 	- closure

@@ -34,6 +34,8 @@
 ### 第六週(1/11)
 
 ### 第七週(1/18)
+- Unit Testing
+- UI Testing
 
 ### 第八週(1/25)
 - SwiftUI & Combine
