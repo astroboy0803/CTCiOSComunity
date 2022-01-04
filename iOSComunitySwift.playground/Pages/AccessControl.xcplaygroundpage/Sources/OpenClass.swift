@@ -5,15 +5,9 @@ import Foundation
 //
 //}
 
-public class PClass {
-    func execute() {
-        print("I'm PClass...")
-    }
-}
-
 open class OClass {
     
-    open init() {
+    public init() {
         
     }
     
@@ -22,5 +16,11 @@ open class OClass {
     }
     open func execute() {
         print("I'm OClass execute...")
+    }
+}
+
+public class PClass {
+    func execute() {
+        print("I'm PClass...")
     }
 }

@@ -14,6 +14,7 @@
 - open
 	- 其它module與source file都能存取
 	- 只能使用在class或class member
+		- Initializers不可以宣告為open
 	- 允許外部subclass與override	
 - public
 	- 其它module與source file都能存取

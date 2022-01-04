@@ -16,5 +16,6 @@
         <page name='AboutJSON'/>
         <page name='PlaygroundRunViewController'/>
         <page name='AccessControl'/>
+        <page name='Extension'/>
     </pages>
 </playground>
