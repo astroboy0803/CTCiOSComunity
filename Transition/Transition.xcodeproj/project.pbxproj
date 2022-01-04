@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7518A9452784123A0058991F /* ResultDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7518A9442784123A0058991F /* ResultDatas.swift */; };
 		75C73BD9277ADFC900BE168D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C73BD8277ADFC900BE168D /* AppDelegate.swift */; };
 		75C73BDB277ADFC900BE168D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C73BDA277ADFC900BE168D /* SceneDelegate.swift */; };
 		75C73BDD277ADFC900BE168D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C73BDC277ADFC900BE168D /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7518A9442784123A0058991F /* ResultDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDatas.swift; sourceTree = "<group>"; };
 		75C73BD5277ADFC900BE168D /* Transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C73BD8277ADFC900BE168D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75C73BDA277ADFC900BE168D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		75C73BD7277ADFC900BE168D /* Transition */ = {
 			isa = PBXGroup;
 			children = (
+				7518A9442784123A0058991F /* ResultDatas.swift */,
 				75C73BED277AE3BA00BE168D /* Palette */,
 				75C73BEC277AE33100BE168D /* Sort */,
 				75C73BD8277ADFC900BE168D /* AppDelegate.swift */,
@@ -170,6 +173,7 @@
 			files = (
 				75C73BF9277AE8E900BE168D /* PaletteViewController.swift in Sources */,
 				75C73BDD277ADFC900BE168D /* ViewController.swift in Sources */,
+				7518A9452784123A0058991F /* ResultDatas.swift in Sources */,
 				75C73BD9277ADFC900BE168D /* AppDelegate.swift in Sources */,
 				75C73BF7277AE8B700BE168D /* SortViewController.swift in Sources */,
 				75C73BDB277ADFC900BE168D /* SceneDelegate.swift in Sources */,

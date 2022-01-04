@@ -37,16 +37,29 @@
                                     <action selector="tapTabWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2GS-uI-2ca"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1L-FV-Q6W">
+                                <rect key="frame" x="10" y="414" width="394" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="q1L-FV-Q6W" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="2i4-WF-nJW"/>
                             <constraint firstItem="lw6-bg-F6M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7G2-f5-X8N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q1L-FV-Q6W" secondAttribute="trailing" constant="10" id="8Qf-KT-Mes"/>
                             <constraint firstItem="lw6-bg-F6M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GRD-7U-BZW"/>
                             <constraint firstItem="run-xm-Ab2" firstAttribute="top" secondItem="lw6-bg-F6M" secondAttribute="bottom" constant="20" id="MZN-NO-QII"/>
+                            <constraint firstItem="q1L-FV-Q6W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="eBf-kH-LkS"/>
                             <constraint firstItem="run-xm-Ab2" firstAttribute="centerX" secondItem="lw6-bg-F6M" secondAttribute="centerX" id="h39-LR-vok"/>
+                            <constraint firstItem="lw6-bg-F6M" firstAttribute="top" secondItem="q1L-FV-Q6W" secondAttribute="bottom" constant="10" id="zgh-Zj-Mmq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="q1L-FV-Q6W" id="KED-hu-oW2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -27,6 +27,9 @@
 - [[Transition]]
 
 ### 第五週(1/4)
+- [[Error Handling]]
+- [[Enumeration、Structure and Class]]
+- [[Transition]]
 
 ### 第六週(1/11)
 

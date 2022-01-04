@@ -89,3 +89,23 @@
 		self.present(navController, animated: true)
 		```
 	10.  設定離開與跳轉功能，參考範例程式
+
+#### Return Value 
+- 將資料傳給sub view controller
+	- 建構子
+	- create instance後直接呼叫instance member
+- 怎麼把資料帶回sup view controller
+	- delegate
+		- protocol and extension
+		- memory problem
+			- weak or unowned
+	- closure
+		- memory problem
+			- capture list with weak or unowned
+	- segue
+		- storyboard ❌
+- singleton
+	- instance必須為refence type = class
+	- global variable - static
+	- **only one instance** of a type for the lifetime of the application
+	- lazy初始化，無法確保thread safety

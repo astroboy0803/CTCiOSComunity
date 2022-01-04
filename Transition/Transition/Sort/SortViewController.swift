@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol SortViewDelegate: AnyObject {
+    func getValue(datas: [Int])
+}
+
 class SortViewController: UIViewController {
     
     @IBOutlet private var firstLabel: UILabel!
@@ -16,6 +20,10 @@ class SortViewController: UIViewController {
     @IBOutlet private var fifthLabel: UILabel!
     
     @IBOutlet private var paletteButton: UIButton!
+    
+    @IBOutlet private var resultLabel: UILabel!
+    
+    weak var delegate: SortViewDelegate?
     
     private var labels: [UILabel] {
         [firstLabel, secondLabel, thirdLabel, fourthLabel, fifthLabel]
@@ -54,11 +62,21 @@ class SortViewController: UIViewController {
     }
     
     @IBAction private func doClose(sender: UIButton) {
+        // singleton
+        ResultDatas.shareInstance.sortDatas = datas
+        
+        self.delegate?.getValue(datas: datas)
         self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction private func goToPalette(sender: UIButton) {
         let paletteVC: PaletteViewController = .init(nibName: "PaletteViewController", bundle: nil)
+        paletteVC.setup { [weak self] provider in
+            self?.resultLabel.text = """
+            PaletteViewController Return Value:
+            \(provider)
+            """
+        }
         self.navigationController?.pushViewController(paletteVC, animated: true)
     }
 }
