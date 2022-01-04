@@ -15,5 +15,6 @@
         <page name='ErrorHandling'/>
         <page name='AboutJSON'/>
         <page name='PlaygroundRunViewController'/>
+        <page name='AccessControl'/>
     </pages>
 </playground>
