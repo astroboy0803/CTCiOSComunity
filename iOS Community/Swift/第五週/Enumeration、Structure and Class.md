@@ -1,25 +1,3 @@
-### Enumeration
-Enumerations (also known as enums) are a special data type that enables us to **group related types together** and **use them in a type-safe manner**.
-
-Swift的enum比其它程式語言來的強大
-- **Value Type**
-- 可讀性
-- create
-	- normal
-	- short
-- 比對
-	1. switch: 必須列出所有條件，或使用defatult
-	2. if
-- CaseIterable
-- 預設是沒有型別, 但可設定為任意型態
-	- rawValue
-	- init(rawValue:)
-- associated value
-	- 不可以設定型別
-- [[Optional Variables]]是enum
-
-> **Structures** and **classes** are general-purpose, flexible constructs that become the building blocks of your program’s code. You define properties and methods to add functionality to your structures and classes using the same syntax you use to define constants, variables, and functions.
-
 ### Structure
 - **Value Type**
 - 不可繼承，conform多個protocol
@@ -49,6 +27,27 @@ Swift的enum比其它程式語言來的強大
 > **Convenience initializers** are **secondary, supporting initializers** for a class. You can define a **convenience initializer to call a designated initializer** from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
 > Write the **required** modifier before the definition of a class initializer to indicate that **every subclass of the class must implement** that initialize
 
+### Enumeration
+Enumerations (also known as enums) are a special data type that enables us to **group related types together** and **use them in a type-safe manner**.
+
+Swift的enum比其它程式語言來的強大
+- **Value Type**
+- 可讀性
+- create
+	- normal
+	- short
+- 比對
+	1. switch: 必須列出所有條件，或使用defatult
+	2. if
+- CaseIterable
+- 預設是沒有型別, 但可設定為任意型態
+	- rawValue
+	- init(rawValue:)
+- associated value
+	- 不可以設定型別
+- [[Optional Variables]]是enum
+
+> **Structures** and **classes** are general-purpose, flexible constructs that become the building blocks of your program’s code. You define properties and methods to add functionality to your structures and classes using the same syntax you use to define constants, variables, and functions.
 
 P.S. 
 - 三種結構都可以在內部建立彼此，namespace的概念

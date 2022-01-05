@@ -1,7 +1,4 @@
-//: [Previous](@previous)
-
 import Foundation
-import CoreGraphics
 
 // define class & structure
 class MyClass {
