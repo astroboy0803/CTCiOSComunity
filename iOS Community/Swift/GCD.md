@@ -1,0 +1,1 @@
+GCD的內容可參考[iOS 多工運作流程與應用](https://github.com/astroboy0803/iGCD)

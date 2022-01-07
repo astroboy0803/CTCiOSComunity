@@ -18,5 +18,7 @@
         <page name='AccessControl'/>
         <page name='Extension'/>
         <page name='Protocol'/>
+        <page name='MemoryManagement'/>
+        <page name='NetAPI'/>
     </pages>
 </playground>
