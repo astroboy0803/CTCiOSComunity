@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditViewController" customModule="Integrated" customModuleProvider="target">
+            <connections>
+                <outlet property="companyTextField" destination="9yM-bA-9iI" id="pyn-Y9-haj"/>
+                <outlet property="emailTextField" destination="6WS-5N-gGW" id="8Sh-84-8Se"/>
+                <outlet property="nameLabel" destination="2N2-hA-OE7" id="D2v-GI-rwT"/>
+                <outlet property="phoneField" destination="irC-xB-6ig" id="Ogi-Ut-qoI"/>
+                <outlet property="view" destination="g8J-NG-F1U" id="YZ2-J1-Vbc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="g8J-NG-F1U">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2N2-hA-OE7">
+                    <rect key="frame" x="207" y="54" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6WS-5N-gGW">
+                    <rect key="frame" x="10" y="64" width="394" height="34"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textValueChangeWithTextField:" destination="-1" eventType="valueChanged" id="Ou9-9c-Rau"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="irC-xB-6ig">
+                    <rect key="frame" x="10" y="108" width="394" height="34"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textValueChangeWithTextField:" destination="-1" eventType="valueChanged" id="CEW-I8-zUq"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="company's name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9yM-bA-9iI">
+                    <rect key="frame" x="10" y="152" width="394" height="34"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textValueChangeWithTextField:" destination="-1" eventType="valueChanged" id="hh7-Ne-457"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fNY-0D-bmc"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="irC-xB-6ig" firstAttribute="centerX" secondItem="2N2-hA-OE7" secondAttribute="centerX" id="1Mh-e4-yrh"/>
+                <constraint firstItem="fNY-0D-bmc" firstAttribute="trailing" secondItem="irC-xB-6ig" secondAttribute="trailing" constant="10" id="1Xf-N9-Bvd"/>
+                <constraint firstItem="9yM-bA-9iI" firstAttribute="top" secondItem="irC-xB-6ig" secondAttribute="bottom" constant="10" id="F7L-ac-Lre"/>
+                <constraint firstItem="irC-xB-6ig" firstAttribute="top" secondItem="6WS-5N-gGW" secondAttribute="bottom" constant="10" id="Jct-yR-NQK"/>
+                <constraint firstItem="fNY-0D-bmc" firstAttribute="trailing" secondItem="6WS-5N-gGW" secondAttribute="trailing" constant="10" id="Na5-Al-WCa"/>
+                <constraint firstItem="9yM-bA-9iI" firstAttribute="leading" secondItem="fNY-0D-bmc" secondAttribute="leading" constant="10" id="O1g-0e-f2A"/>
+                <constraint firstItem="2N2-hA-OE7" firstAttribute="centerX" secondItem="g8J-NG-F1U" secondAttribute="centerX" id="PIh-kK-BM7"/>
+                <constraint firstItem="9yM-bA-9iI" firstAttribute="centerX" secondItem="2N2-hA-OE7" secondAttribute="centerX" id="PlB-Eq-U4U"/>
+                <constraint firstItem="fNY-0D-bmc" firstAttribute="trailing" secondItem="9yM-bA-9iI" secondAttribute="trailing" constant="10" id="PqP-tl-xdm"/>
+                <constraint firstItem="6WS-5N-gGW" firstAttribute="top" secondItem="2N2-hA-OE7" secondAttribute="bottom" constant="10" id="QGh-Ll-gcx"/>
+                <constraint firstItem="6WS-5N-gGW" firstAttribute="leading" secondItem="fNY-0D-bmc" secondAttribute="leading" constant="10" id="j3Z-EU-DIu"/>
+                <constraint firstItem="irC-xB-6ig" firstAttribute="leading" secondItem="fNY-0D-bmc" secondAttribute="leading" constant="10" id="nfY-Kf-6UT"/>
+                <constraint firstItem="2N2-hA-OE7" firstAttribute="top" secondItem="fNY-0D-bmc" secondAttribute="top" constant="10" id="ryY-nO-JwT"/>
+                <constraint firstItem="6WS-5N-gGW" firstAttribute="centerX" secondItem="2N2-hA-OE7" secondAttribute="centerX" id="zU7-Dg-uYQ"/>
+            </constraints>
+            <point key="canvasLocation" x="51" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
