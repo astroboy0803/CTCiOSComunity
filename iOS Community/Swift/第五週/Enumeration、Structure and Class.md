@@ -13,7 +13,7 @@
 - 有deinit
 - init
 	- 若有非optional的變數或常數在宣告時沒有給值的話，至少要建立一個init(參數任意)且要將沒設定的值設定
-	-  implicit initializer：非optional的變數或常數全部都有給初始值的話，就會自動產生init且不接任何參數
+	- implicit initializer：非optional的變數或常數全部都有給初始值的話，就會自動產生init且不接任何參數
 - [[Property]]
 - [[Methods]]
 - 繼承：使用「:」，第一個要放class，後面再接protocol

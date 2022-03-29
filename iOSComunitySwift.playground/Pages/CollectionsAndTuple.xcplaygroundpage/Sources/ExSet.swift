@@ -74,4 +74,22 @@ public func runSet() {
     print(opSet1)
     opSet1.formSymmetricDifference(opSet2)
     print(opSet1)
+
+    // 先判斷contain效能比直接insert好
+    var set: Set<String> = ["A", "B", "C"]
+    let startTime = CFAbsoluteTimeGetCurrent()
+    for _ in 0..<1000 {
+        if set.contains("A") {
+            
+        }
+    }
+    let interval = CFAbsoluteTimeGetCurrent() - startTime
+    print(">>>> \(interval * 1000)")
+
+    let startTime2 = CFAbsoluteTimeGetCurrent()
+    for _ in 0..<1000 {
+        set.insert("A")
+    }
+    let interval2 = CFAbsoluteTimeGetCurrent() - startTime2
+    print(">>>> \(interval2 * 1000)")
 }

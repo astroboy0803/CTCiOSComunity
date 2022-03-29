@@ -149,4 +149,9 @@ public func runArray() {
     print(strH)
     // array的joined方法只有當element的型態為string才可以使用
     //oriAry.joined(separator: ",")
+    
+    // keepingCapacity可以確保array已分配的記憶體不會被回收(提升後續操作效能), 但不會影響ary目前的count值
+    var sAry1: [String] = ["A", "C", "E"]
+    sAry1.removeAll(keepingCapacity: true)
+    print(sAry1.count)
 }
