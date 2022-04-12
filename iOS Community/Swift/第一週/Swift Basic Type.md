@@ -4,7 +4,7 @@
 		- signed：positive + negative + zero
 			- Int、Int8、Int16、Int32、Int64
 		- unsigned：positive + zero
-			- UInt、UInt8、UInt16、UInt32、UInt64\
+			- UInt、UInt8、UInt16、UInt32、UInt64
 		- 可以用來表示其它進制，必須加上prefix
 			- Decimal：預設，不用加
 			- Binary：0b

@@ -20,5 +20,7 @@
         <page name='Protocol'/>
         <page name='MemoryManagement'/>
         <page name='NetAPI'/>
+        <page name='TypeErasure'/>
+        <page name='CacheSample'/>
     </pages>
 </playground>
