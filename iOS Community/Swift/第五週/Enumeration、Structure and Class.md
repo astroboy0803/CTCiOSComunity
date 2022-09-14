@@ -43,7 +43,7 @@ Swift的enum比其它程式語言來的強大
 - 預設是沒有型別, 但可設定為任意型態
 	- rawValue
 	- init(rawValue:)
-- associated value
+	- associated value
 	- 不可以設定型別
 - [[Optional Variables]]是enum
 

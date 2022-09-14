@@ -41,7 +41,7 @@ class Employee {
         get {
             return salaryWeek / 7
         }
-        //  newValue is default parameter's name 
+        //  newValue is default parameter's name
         set {
             salaryYear = newValue * 7 * 52
         }

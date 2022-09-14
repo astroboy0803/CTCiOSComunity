@@ -25,6 +25,7 @@ print(hex)
 
 // 浮點數
 print("Float 範圍 = \(-Float.greatestFiniteMagnitude) - \(Float.greatestFiniteMagnitude)")
+print("Float64 範圍 = \(-Float64.greatestFiniteMagnitude) - \(Float64.greatestFiniteMagnitude)")
 print("Double 範圍 = \(-Double.greatestFiniteMagnitude) - \(Double.greatestFiniteMagnitude)")
 
 // double較精確
@@ -47,6 +48,10 @@ let iValue = 160
 let fIvalue: Double = Double(iValue)
 print(fIvalue - dValue)
 
+// 轉型要注意上下限
+//print(UInt(Int.min))
+print(UInt(Int.max))
+
 // 隨機亂數
 let iRandom = Int.random(in: 1...10)
 let dRandom = Double.random(in: 0...1)
@@ -64,6 +69,13 @@ let minDou = min(dou1, dou2)
 let aInt = abs(-652)
 let hundred = pow(10, 2)
 let ten = sqrt(100)
+
+// Boolean
+let is153 = dou1 == 15.3
+if is153 {
+    // do something
+}
+let aVal = is153 ? 100 : 0
 
 // String - 單行, 多行
 let str = "Swift is very cool"

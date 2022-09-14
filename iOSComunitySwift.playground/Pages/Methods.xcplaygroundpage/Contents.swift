@@ -1,10 +1,17 @@
 import Foundation
 import UIKit
 
+func aaa(closure: (String) -> Void) {
+    closure("aaa")
+}
+
 // function
 func sayHello(name: String) {
     print("Hello \(name)")
 }
+
+aaa(closure: sayHello(name:))
+
 // 預設為Void
 func sayHello2(name: String) -> Void {
     print("Hello \(name)")

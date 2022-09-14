@@ -3,12 +3,12 @@ SandBox is a container which under APP in iOS system.
 -   APPs can not fetch sandbo of others
 -   Containers → Document container , Main container (Bundle) 
 
-![[Pasted image 20211222095917.png]]
+![[SandBox_DeviceAndSimulators.png]]
 
-![[Pasted image 20211222100124.png]]
+![[SandBox_DownloadContainer.png]]
 
-![[Pasted image 20211222100219.png]]
+![[SandBox_SaveLocation.png]]
 
-![[Pasted image 20211222100223.png]]
+![[SandBox_OpenContent.png]]
 
-![[Pasted image 20211222100242.png]]
+![[SandBox_AppFolder.png]]

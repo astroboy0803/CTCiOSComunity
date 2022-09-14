@@ -76,6 +76,7 @@ public func runSet() {
     print(opSet1)
 
     // 先判斷contain效能比直接insert好
+    // Xcode 13.4.1目前測試兩個效能差不多(insert還比較好一點)
     var set: Set<String> = ["A", "B", "C"]
     let startTime = CFAbsoluteTimeGetCurrent()
     for _ in 0..<1000 {

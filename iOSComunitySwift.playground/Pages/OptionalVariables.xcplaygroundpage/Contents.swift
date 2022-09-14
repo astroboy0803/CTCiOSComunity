@@ -10,6 +10,11 @@ var aInt: Int = 100
 // compiler error = 資料型態無法確認, 無法Type Inference
 // var abc = nil
 
+// optional 宣告方式
+var oI: Optional<Int>
+var oIq: Int?
+var oIe: Int!
+
 // optional with question mark
 var qInt: Int?
 print(qInt)
